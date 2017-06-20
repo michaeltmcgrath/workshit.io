@@ -245,7 +245,7 @@ for f in fullList:
 for x in fullList:
     if fullList.index(x)%10==0:
         pp=pprint.PrettyPrinter(indent=4)
-        
+        pp.pprint(x)
 j=json.dumps(fullList)
 with open('C:/Users/Michael/Documents/test_output1.json','w') as f:
     f.write(j)
